@@ -1,9 +1,17 @@
+
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
+
+
 /* Asterisk wildcare selector to override default styles added by the browser*/
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
+
+
 
 /* General Styling */
 body{
@@ -14,11 +22,15 @@ body{
     /* Generic project styling */
     color: #3a3a3a;
 
+    font-family: "Lato", sans-serif;
+
+
 }
 
 /* Main Header Styling*/
 header{
     background-color: lightcoral;
+
 }
 
 
@@ -27,10 +39,19 @@ main{
     background-color: lightblue;
     /* Make main element take up any surplus space to push footer down*/
     flex: 1 0 auto
+
+    
 }
 
 
 /* Footer Styling*/
 footer{
     background-color: orange;
+}
+
+h1{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 20px;
+    font-style: normal;
 }
